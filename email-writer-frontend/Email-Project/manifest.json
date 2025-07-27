@@ -1,0 +1,13 @@
+{
+  "name": "Hello Harshita",
+  "description": "Adds an AI Reply button to Gmail when the extension is clicked.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click to add AI Reply button"
+  }
+}
